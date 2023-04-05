@@ -1,0 +1,43 @@
+/* CONTACTO */
+.h1--contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 36rem;
+    
+    h1 {
+        font-size: 5rem;
+        padding-top: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+}
+.form--cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36rem;
+    width: 60%;
+}
+
+.form-control {
+    background-color: white;
+    border: 2px solid #E6E4E4;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.buttonhov {
+    background-color: #E6E4E4;
+    color: black;
+    border: 0.2rem solid #E6E4E4;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    &:hover {
+    background-color: #DAE3E5;
+    }
+}

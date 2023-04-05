@@ -1,0 +1,38 @@
+@media (max-width:1300px) {
+    .h1--contacto{
+        margin-left: 30rem;
+    }
+    .form--cont{
+        margin-left: 30rem;
+    }
+}
+
+
+@media (max-width:992px) {
+    .h1--contacto{
+        margin-left: 10rem;
+        width: 80%;
+        font-size: 1.7;
+        h1 {
+            font-size: 5rem;
+            padding-top: 3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    .form--cont{
+        margin-left: 10rem;
+        width: 80%;
+    }
+}
+
+@media (max-width:466px){
+    .h1--contacto   {
+        width: 100%;
+        margin-left: 0;
+    }
+    .form--cont{
+        width: 100%;
+        margin-left: 0;
+    }
+}
